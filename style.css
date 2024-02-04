@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#landing {
+  padding: 2rem;
+}
+
+#landing h2 {
+  margin-bottom: 1rem;
+}
+
+#landing img {
+  height: auto;
+}
+
+#bio {
+  padding: 2rem;
+}
+
+#bio h2 h3 {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.image-gallery {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-gallery img {
+  height: 500px;
+}
+
+.portfolio-h2 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.project {
+  width: 30%;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.project p {
+  margin-bottom: 1rem;
+}
+
+.project a {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.resume img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
